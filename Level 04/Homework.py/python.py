@@ -1,7 +1,7 @@
    # 2) შექმენით პროგრამა, რომელიც მომხმარებელს შეაყვანინებს:
 #first_name = input ვთხოვთ სახელის კონსოლში ჩასმას
 first_name = input("please enter your first name: ")
-#last name = input ვთხოვთ გვარის კონსოლშუ ჩასმას+
+#last name = input ვთხოვთ გვარის კონსოლშუ ჩასმ ას+
 last_name = input("please enter your last name: ")
 #age = input ვთხოვთ ასაკის კონსოლში შეტანას
 age = input("please enter your age: ")
@@ -23,9 +23,9 @@ favorite_car = input('Enter your favorite car')
 #favorite_brand = input ვთხოვთ საყვარელი ბრენდის კონსოლში შეტანას
 favorite_brand = input('Enter your favorite brand')
 #favorite_perfume = input ვთხოვთ საყვარელი პარფიუმის კონსოლში შეტანას
-favorite_perfume = input('Enter your favorite_perfume')
+favorite_perfume = input('Enter your favorite perfume')
 #favorite_sport = input ვთხოვთ საყვარელი სპორტის კონსოლში შეტანას
-favorite_sport = input('Enter your favorite_sport')
+favorite_sport = input('Enter your favorite sport')
 
 #გავსცეთ კომპიუტერს პრინტის ბრძანება "favorite car: საყვარელი მანქანა"
 print("favorite car :" + " " + favorite_car)
@@ -52,13 +52,19 @@ main_goal = input("What is your main goal in life? ")
 print("My name is " + first_name) 
 #გავსცეთ კომპიუტერს პრინტის ბრძანება "I am __ year's old ასაკი>(__) "
 print("I am " + age + "  year's old")
-#გავსცეთ კომპიუტერს პრინტის ბრძანება "My dream profession is ოცნედის პროფესია"
+#გავსცეთ კომპიუტერს პრინტის ბრძანება "My dream profession is ოცნების პროფესია"
 print("My dream profession is " + dream_profession)
 #გავსცეთ კომპიუტერს პრინტის ბრძანება "I want to live in სასურველი ქვეყანა"
 print("I want to live in " + desired_country)
-#გავსცეთ კომპიუტერს პრინტის ბრძანება "My main goal is ოვნება"
+#გავსცეთ კომპიუტერს პრინტის ბრძანება "My main goal is ოცნება"
 print('My main goal is ' + main_goal)
-
-# 5) დეტალურად განმარტეთ რას აკეთებს input() ფუნქცია.
-# ასევე ახსენით snake_case-ის სინტაქსი რა არის და რისთვის გვჭირდება.
  
+#input() ფუნქცია აჩერებს პროგრამის მუშაოას და ელოდება მომხმარებლის მიერ კლავიატურიდან ტექსტის შეყვანას.
+#ფრჩხილებში მოცემული ტექსტი ეკრანზე გამოდის მინიშნების სახით, ხოლო მომხმარებლის მიერ აკრეპილი და ენტერით 
+#დადასტურებული ინფორმაცია ავტომატურად ინახება შესაბამს ცვლადში ტექსტის სტრინგის სახით.
+
+#snake_case არის სიტყვბის გადაბმის ცვლადი, სადაც ყველა ასო არის პატარა, 
+# ხოლო სიტყვები ერთმანეთისგან გამოყოფილია ქვედა ტირეებით (_).
+# პროგრამირებაში ის გვჭირდება ცვლადების დასასახელებლად, რადგან კდში სიტყვებს შორის გამოტოვების სფეისის
+# გამოენება აკრძალულია _ ქვედა ტირე კი რამდენიმე სიტყვისგან შემდგარ სახელს (მაგალითად: first_name) 
+# ადამიანისთვის ბევრად უფრო ადვილად წასაკითხს ხდის.

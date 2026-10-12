@@ -39,13 +39,13 @@ print('favorite sport :' + " " + favorite_sport)
 # 4)შექმენით პროგრამა, რომელიც მომხმარებელს შეაყვანინებს:
 #first_name = input ვთხოვთ საყვარელი მანქნის კონსოლში შეტანას
 first_name = input ('please enter your first name')
-#age = input ვთხოვთ საყვარელი მანქნის კონსოლში შეტანას
+#age = input ვთხოვთ ასაკის კონსოლში შეტანას
 age = input("please enter your age: ")
-#dream_profession = input ვთხოვთ საყვარელი მანქნის კონსოლში შეტანას
+#dream_profession = input ვთხოვთ საყვარელი პროფესიის შეტანას
 dream_profession = input("What is your dream profession? ")
-#desired_country = input ვთხოვთ საყვარელი მანქნის კონსოლში შეტანას
+#desired_country = input ვთხოვთ საყვარელი ქვეყნის კონსოლში შეტანას
 desired_country = input("Which country do you want to live in? ")
-#main_goal = input ვთხოვთ საყვარელი მანქნის კონსოლში შეტანას
+#main_goal = input ვთხოვთ ოცნების კონსოლში შეტანას
 main_goal = input("What is your main goal in life? ")
 
 #გავსცეთ კომპიუტერს პრინტის ბრძანება "My name is სახელი"

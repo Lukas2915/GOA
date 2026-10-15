@@ -1,4 +1,3 @@
-   # 2)  მომხმარებელს შემოაყვანინეთ თავისი სახელი, ასაკი და სიმაღლე.
 #first_name = input ვთხოვთ სახელის კონსოლში ჩასმას
 first_name = input("please enter your first name :  ")
 #age = input ვთხოვთ ასაკის კონსოლში შეტანას

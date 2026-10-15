@@ -17,7 +17,7 @@ print("hight: " + hight)
 #ვთხოვთ ჩავსვათ მომხმარებელს ნომრები პირველი, მეორე
 number1 = input("Enter first number: ")
 number2 = input("Enter second number: ")
-#
+#გავსცეთ კომპიუტერს პრინტის ბრძანება გამოვთვალოთ + - * / //
 print((number1) + (number2))
 print(int(number1) - int(number2))
 print(int(number1) * int(number2))

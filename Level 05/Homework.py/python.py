@@ -14,7 +14,7 @@ print("age: " + age)
 print("hight: " + hight)
 
 
-#
+#ვთხოვთ ჩავსვათ მომხმარებელს ნომრები პირველი, მეორე
 number1 = input("Enter first number: ")
 number2 = input("Enter second number: ")
 #
@@ -25,23 +25,23 @@ print(int(number1) / int(number2))
 print(int(number1) // int(number2))
 
 
-#
+#ვთხოვთ ჩავსვათ მომხმარებელს პროდუქტის სახელი, რაოდენობა და ფასი შედეფით
 product_name = input("hich product would you like?: ")
 price = input("Enter product price: ")
 quantity = input("Enter product quantity: ")
 total_price = (int(price) * int(quantity))
-#
+#გავსცეთ კომპიუტერს პრინტის ბრძანება გამოიტანოს საბოლოო ფასუხი
+#"print("Your total price is: ", total_price)" თავიდან გავიჭედე და ყველაფერი ერთი "," ბრალი იყო
 print("Your total price is: ", total_price)
 
 
-#
-#first_name = input ვთხოვთ სახელის კონსოლში ჩასმას
+#first_name = input ვთხოვთ სახელის, პროდუქტების ქულების კონსოლში ჩასმას
 first_name = input("please enter your first name :  ")
 grade1 = int(input("Enter subject 1: "))
 grade2 = int(input("Enter subject 2: "))
 grade3 = int(input("Enter subject 3: "))
 average = (grade1 + grade2 + grade3) / 3
-
+#გავსცეთ პრინტის ბრძანება გამოიტანოს პროდუქტების ქულების საშუალო და სახელი
 print("Name: ", first_name)
 print("Grades: ", grade1, grade2, grade3)
 print("Average: ", average)

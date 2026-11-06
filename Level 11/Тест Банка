@@ -1,0 +1,51 @@
+
+balance = float(500.0)
+trans = 0
+choice = 0
+
+while True :
+  print ("""
+            ~~~~~~~ST_BANKUS~~~~~
+            1. 1 - Баланс
+            2. 2 - Положить сумму
+            3. 3 - Вывести сумму  
+            4. 4 - Кол. Транзакций
+            5. 5 - ВЫХОД
+            ~~~~~~~~~~~~~~~~~~~~~""")
+  choice = float(input("Введите нужный номер :  "))
+  if choice == 1 :
+    print ("Ваш баланс", balance, " GEL")
+  elif choice == 2 :
+    deposit = float(input("Введите депозит для баланса :  "))
+    if deposit < 0 :
+      print ("ОШИБКА введите полное число")
+      continue 
+    balance += deposit
+    print ("Успешный депозит! Ваш баланс :", balance, " GEL")
+    trans+=1
+  
+  elif choice == 3 :
+    out_deposit = float(input("Введите количество выноса :  "))
+    if out_deposit > balance :
+      print ("ОШИБКА у вас недостаточно средств")
+      continue
+    elif out_deposit < 0 :
+      print ("ОШИБКА введите полное число")
+      continue
+    else :
+      balance -= out_deposit
+      print ("Успешное снятие денег! на балансе : ", balance)
+      trans +=1
+  elif choice == 4 :
+    if trans == 0 :
+      print ("количество транзакции за всё время : 0!")
+    else :
+      print ("количество транзакции за всё время : ",trans )
+  elif choice == 5 :
+    break 
+
+
+
+
+
+    
